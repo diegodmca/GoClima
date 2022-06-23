@@ -14,7 +14,7 @@ protocol WeatherManagerDelegate {
 }
 
 struct ClimaManager {
-    let apiUrl = "https://api.openweathermap.org/data/2.5/weather?appid=5e43851f2b544cd67736836f1a09fcf3&units=metric"
+    let apiUrl = "https://api.openweathermap.org/data/2.5/weather?appid={APIKEY}&units=metric"
     var delegate: WeatherManagerDelegate?
     func buscaTemperatura(cidade: String){
         let linkClima = "\(apiUrl)&q=\(cidade)"
