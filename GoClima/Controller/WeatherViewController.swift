@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WeatherViewController.swift
 //  GoClima
 //
 //  Created by Diego Carvalho on 18/06/22.

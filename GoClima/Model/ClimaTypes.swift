@@ -1,5 +1,5 @@
 //
-//  DadosClima.swift
+//  ClimaTypes.swift
 //  GoClima
 //
 //  Created by Diego Carvalho on 20/06/22.
